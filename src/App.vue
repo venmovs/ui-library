@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import ButtonUI from "./components/ButtonUI";
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <ButtonUI label="Кнопка" rounded disabled />
+  <input type="range" />
 </template>
